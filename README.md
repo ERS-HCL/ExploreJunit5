@@ -26,9 +26,12 @@ Features like
 - Using Parameterized test in JUnit5
 - Using Parameter Resolver in Junit5
 <p>This repository used Maven to build the files and for its execution.Though Gradle can also be used.
-<p> Few Important things while updating POM.xml.
-  - For Running old Junit4 Test Classes with JUnit5 framework , we need to add the dependencies for junit-platform-surefire-provider and junit-vintage-engine plugin with maven –surefire-plugin.
-  - To execute Both New JUnit5 and Old JUnit4 Test Classes together in Junit5 framework, we need to add the dependency for junit-jupiter-engine.
-  - To execute only New JUnit5 Test Classes, we need to add the dependency for junit-jupiter-engine and use maven-compiler-plugin to run the test classes.
+<p> Few Important things while updating POM.xml
+  <ul style="list-style-type:circle">
+  <li>For Running old Junit4 Test Classes with JUnit5 framework , we need to add the dependencies for junit-platform-surefire-provider and junit-vintage-engine plugin with maven –surefire-plugin.</li>
+  <li> To execute Both New JUnit5 and Old JUnit4 Test Classes together in Junit5 framework, we need to add the dependency for junit-jupiter-engine.</li>
+  <li>To execute only New JUnit5 Test Classes, we need to add the dependency for junit-jupiter-engine and use maven-compiler-plugin to run the test classes.</li>
+</ul>
+
   
  <p> <i>Currently, IDE like Eclipse, IntelliJ,Netbeans can execute JUnit5 framework by adding <b>@RunWith(JUnitPlatform.class)</b> i.e. junit-platform-runner for executing tests and test suites on the JUnit5 Platform in a JUnit 4 environment(like in Eclipse IDE till it supports JUnit5).</i>
