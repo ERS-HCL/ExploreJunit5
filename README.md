@@ -58,5 +58,6 @@ Features like
  There are few more Test or call back interfaces are provided.You can explore more or play out with the code and get your hand dirty in Junit5.
   
 Using <i>mvn clean install</i> will compile and execute all the test classes.Alternatively, this files can also be imported to Eclipse or any other IDE.
-
-
+<p>
+Here is the screenshot of PersonDaoBeanParameterizedTest when executed in Eclipse will give you a report like below
+<img style="max-width:100%;" alt="junit_run" src="https://user-images.githubusercontent.com/12508591/33185747-c32fec3e-d0aa-11e7-9360-6ec9553ffac1.GIF">
