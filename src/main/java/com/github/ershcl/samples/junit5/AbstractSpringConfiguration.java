@@ -9,9 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public abstract class AbstractSpringConfiguration {
 
   /**
-   * The DataSource for accessing the persistent store.
-   * 
-   * Make sure to implement
+   * The DataSource can be any DB or any Collection object.Here PersonDataStore class is used.
    */
   public abstract PersonDataStore getDataSource();
 
