@@ -37,19 +37,26 @@ Features like
  <p> <i>Currently, IDE like Eclipse, IntelliJ,Netbeans can execute JUnit5 framework by adding <b>@RunWith(JUnitPlatform.class)</b> i.e. junit-platform-runner for executing tests and test suites on the JUnit5 Platform in a JUnit 4 environment(like in Eclipse IDE till it supports JUnit5).</i>
   
 <h3> File Information </h3>
- - Person : This is an normal POJO class.
- - PersonDao :This interface defines all kind of crud related methods.
- - PersonDaoBean : Implementation of the PersonDao interface.
- - PersonDataStore : Singleton class containing a dump of Person object data.
- - AbstractSpringConfiguration : This is to invoke Spring IOC Container.
+<ul style="list-style-type:circle">
+<li>  <i>Person</i> : This is an normal POJO class.
+<li>  <i>PersonDao</i> :This interface defines all kind of crud related methods.
+<li>  <i>PersonDaoBean</i> : Implementation of the PersonDao interface.
+<li>  <i>PersonDataStore</i> : Singleton class containing a dump of Person object data.
+<li>  <i>AbstractSpringConfiguration</i> : This is to invoke Spring IOC Container.
+</ul>
 <p>
 <h3> Test Related Files </h3>
- - GeneratedParameterResolver: This class implements ParameterResolver interface and contains callback methods which will
-   be invoked by any Test Class using the @ExtendWith annotation like <i>@ExtendWith(SimpleJUnitParameterResolver.class)</i>.
- - JUnitSpringConfiguration : This is to invoke the Spring IOC in JUnit enviornemnt.
- - PersonDaoBeanDyamicTest: This class will explore many new Junit5 assserts, annotations and most importantly using Dynamic test.
- - PersonDaoBeanRepeatedTest: This class will explore how we can implement new feature of Junit5 i.e. Repeated Test.
- - PersonDaoBeanParameterizedTest: This class will explore the very important feature of Junit5 i.e. Parameterized test using either @MethodSource, @ValueSource or @EnumSource. @EnumSource is left explicitly for your practise.
+<ul style="list-style-type:circle">
+<li>  <i>GeneratedParameterResolver</i>: This class implements ParameterResolver interface and contains callback methods which will
+       be invoked by any Test Class using the @ExtendWith annotation like <i>@ExtendWith(SimpleJUnitParameterResolver.class)</i>.
+<li>  <i>JUnitSpringConfiguration</i> : This is to invoke the Spring IOC in JUnit enviornemnt.
+<li>  <i>PersonDaoBeanDyamicTest</i>: This class will explore many new Junit5 assserts, annotations and most importantly using  Dynamic            test.
+<li>  <i>PersonDaoBeanRepeatedTest</i>: This class will explore how we can implement new feature of Junit5 i.e. Repeated Test.
+<li>  <i>PersonDaoBeanParameterizedTest</i>: This class will explore the very important feature of Junit5 i.e. Parameterized test using             either @MethodSource, @ValueSource or @EnumSource. @EnumSource is left explicitly for your practise.
+</ul>
 <p>
  There are few more Test or call back interfaces are provided.You can explore more or play out with the code and get your hand dirty in Junit5.
+  
+Using <i>mvn clean install</i> will compile and execute all the test classes.Alternatively, this files can also be imported to Eclipse or any other IDE.
+
 
