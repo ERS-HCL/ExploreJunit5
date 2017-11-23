@@ -1,4 +1,20 @@
 #ExploreJunit5
+
+JUnit5 comes with a fresh breathe of air, having junit4 for more than a decade.We had one big Junit4 which was used both by dev tools and build tools. It was becoming outdated nor it was extensible with new tools.
+JUnit5 is written completely in Java8 but it has backward compatability with test classes written in Junit 4 or Junit3.
+
+NOTE: Any project not using JAVA 8 should NOT consider migrating to Junit5.
+Junit5 is modular as well as extensible ,comes with new features and plugins which can be used by different IDE tools or Build tools
+https://user-images.githubusercontent.com/12508591/33179625-195ccc46-d090-11e7-810a-9fe2c6d84658.gif
+
+Different plugins/jars are packaged with
+- Jupiter engine
+- Vintage engine
+- Third Party engine
+
+https://user-images.githubusercontent.com/12508591/33179996-38607042-d091-11e7-9b80-9052c1ff5e20.png
+
+
 Here we have worked out with few worked out examples which can highlight the features of JUnit5.
 Features like
 - New Asserts in Junit5
