@@ -35,6 +35,7 @@ Features like
 
   
  <p> <i>Currently, IDE like Eclipse, IntelliJ,Netbeans can execute JUnit5 framework by adding <b>@RunWith(JUnitPlatform.class)</b> i.e. junit-platform-runner for executing tests and test suites on the JUnit5 Platform in a JUnit 4 environment(like in Eclipse IDE till it supports JUnit5).</i>
+<p> Please check my article https://dzone.com/articles/embrace-junit5 for more better understanding.</p>
   
 <h3> File Information </h3>
 <ul style="list-style-type:circle">
